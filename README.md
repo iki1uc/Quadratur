@@ -1,3 +1,3 @@
-Quadratur (((WIEIMMER)))
-mathematische Fixpunktbildung
-UC = φ² ; pos(UC) = (3, 2)
+Unendlichkeit (((WIEIMMER)))
+mathematische Unsterblichkeit
+MA³ = φ∞ ; pos(MA³) = (3, ∞)
