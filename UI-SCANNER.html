@@ -1,8 +1,39 @@
-<scanner>
+<html>
+<head>
+<title>SCANNER-UC (((WIEIMMER)))</title>
+</head>
+
+<body>
+
+<section id="scanner">
+
   <station>UC</station>
   <code>φ²</code>
   <task>Fixpunkt bilden</task>
-  <pipeline>P4 → P2 → Pe</pipeline>
-  <execute>φ²(input)</execute>
-  <output>square(input)</output>
-</scanner>
+
+  <pipeline>
+    P4 → P2 → Pe
+  </pipeline>
+
+  <input>
+    value = {{INPUT}}
+  </input>
+
+  <execute>
+    step_P4 = start({{INPUT}})
+    step_P2 = merge(step_P4)
+    result  = φ²(step_P2)
+  </execute>
+
+  <output>
+    square = {{RESULT}}
+  </output>
+
+  <return>
+    SEEu.md ← {{RESULT}}
+  </return>
+
+</section>
+
+</body>
+</html>
